@@ -1,0 +1,32 @@
+.search {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    font-size: 15px;
+    overflow: hidden;
+    background-image: url(https://www.svgrepo.com/show/476395/search.svg);
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+    background-size: 22px;
+}
+
+.search:hover {
+    border: 1px solid #0474BC;
+}
+
+.search:focus {
+    width: 200px;
+    cursor: text;
+    padding-left: 40px;
+    color: #000;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #24ACCC;
+    background: url(https://www.svgrepo.com/show/474980/search.svg) no-repeat;
+    background-size: 22px;
+    background-position: 10px 50%;
+}
